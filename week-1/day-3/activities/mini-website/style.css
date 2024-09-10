@@ -1,0 +1,117 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+}
+
+body {
+  color: white;
+  background-color: #1c1c1c;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  background-color: #f5b32f;
+  height: 40px;
+  padding: 1em 0 2.5em 0;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav > ul > li { 
+  border-right: 1px solid #1c1c1c;
+  padding: 0 1em;
+}
+
+nav > ul > li:last-child { 
+  border: none;
+}
+
+nav > ul > li > a {
+  color: #1c1c1c;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f5b32f;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem 0 2rem 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2rem 0 2rem;
+}
+
+.photo > img {
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logos > img {
+  width: 25%;
+}
+
+section#reviews {
+  margin: 0 2rem 2rem 2rem;
+}
+
+.review-1 {
+  display: flex;
+  align-items: center;
+}
+
+.review-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.review {
+  min-width: 50%;
+}
+

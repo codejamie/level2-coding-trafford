@@ -1,0 +1,30 @@
+body {
+  background-color: antiquewhite;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.subheading {
+  color: darkgray;
+  font-family: serif;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#lede {
+  color: black;
+  font-size: 24px;
+  font-family: serif;
+  font-style: italic;
+}
+
+img {
+  width: 30%;
+}

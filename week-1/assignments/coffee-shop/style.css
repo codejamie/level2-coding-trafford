@@ -1,0 +1,80 @@
+/*
+
+Colour Palette
+FAF6F0
+F3EEEA
+EBE3D5
+B0A695
+776B5D
+000000
+*/
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* End reset */
+
+html, body {
+  background-color: #FAF6F0;
+}
+
+nav {
+  background-color: #EBE3D5;
+  height: 10vh;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav>ul>li {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.8rem;
+  margin-right: 1.5rem;
+}
+
+nav>ul>li>a {
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+}
+
+.logo {
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
+nav>ul>li>a:hover {
+  text-decoration: underline;
+}
+
+#attributions > a {
+  font-size: 0.8rem;
+  color: #EBE3D5;
+}
+
+.menu {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  border: 1px dotted blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item>p {
+  margin-top: 1em;
+}
