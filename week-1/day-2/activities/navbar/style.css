@@ -14,12 +14,10 @@ body {
 ul {
   display: flex;
   justify-content: space-evenly;
-  /* border: 1px solid green; */
   list-style: none;
 }
 
 li {
-  /* border: 1px solid blue; */
   padding: 10px;
 }
 
@@ -32,4 +30,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
